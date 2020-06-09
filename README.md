@@ -1,2 +1,3 @@
-# phone-number-normalizer
-Normalizes Brazilian phone numbers against some rule sets.
+# *Phone Number Normalizer*
+
+📞 Normalizes Brazilian Phone Numbers.

@@ -1,0 +1,30 @@
+{
+    "name": "leadsolution/phone-number-normalizer",
+    "description": "Normalizes Brazilian Phone Numbers.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leadsolution",
+            "email": "contato@leadsolution.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "phpunit"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Leadsolution\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Leadsolution\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    }
+}
