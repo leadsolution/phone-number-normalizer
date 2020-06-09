@@ -2,6 +2,8 @@
 
 namespace Leadsolution;
 
+use Leadsolution\PhoneNumber\Exception\NotMobile;
+
 final class PhoneNumber
 {
     private string $value;
@@ -16,6 +18,13 @@ final class PhoneNumber
     public function isMobile(): bool
     {
         return $this->value[0] === '9';
+    }
+
+    public function assertMobile(): void
+    {
+        if (!$this->isMobile()) {
+            throw new NotMobile();
+        }
     }
 
     public function code(): ?string
