@@ -1,4 +1,4 @@
-# *Phone Number Normalizer*
+# *Phone Number Normalizer* ![CI](https://github.com/leadsolution/phone-number-normalizer/workflows/CI/badge.svg)
 
 📞 It tries to normalize a phone number from whatever __*__  input it receives.<br>
 __*__*(can't do magic, if you got a new case, feel free to open an issue or a PR)*.
