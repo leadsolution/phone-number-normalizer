@@ -12,7 +12,7 @@ final class PhoneNumber
     public function __construct(string $number, ?string $code = null)
     {
         $this->value = $number;
-        $this->code = $code;
+        $this->code = $code === null || empty(trim($code)) ? null : $code;
     }
 
     public function isMobile(): bool
