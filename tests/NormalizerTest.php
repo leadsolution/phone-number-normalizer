@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Leadsolution\Test\PhoneNumber;
+namespace Leadsolution\Test;
 
 use Leadsolution\PhoneNumber\Normalizer;
 use PHPUnit\Framework\TestCase;
